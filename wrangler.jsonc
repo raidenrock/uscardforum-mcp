@@ -2,13 +2,14 @@
   "name": "uscardforum-mcp",
   "main": "worker.js",
   "compatibility_date": "2025-10-01",
-  "containers": {
-    "USCardForumContainer": {
+  "containers": [
+    {
+      "class_name": "USCardForumContainer",
       "image": "./Dockerfile",
       "instance_type": "basic",
       "max_instances": 1
     }
-  },
+  ],
   "durable_objects": {
     "bindings": [
       {
