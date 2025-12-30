@@ -1,0 +1,14 @@
+{
+  "name": "uscardforum-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/containers": "^0.0.31"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
