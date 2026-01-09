@@ -126,7 +126,7 @@ mcp = FastMCP(
     port=MCP_PORT,
     token_verifier=_token_verifier,
     auth=_auth_settings,
-    enable_sessions=False
+    stateless_http=True
 )
 
 # Global client instance
